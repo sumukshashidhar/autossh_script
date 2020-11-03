@@ -3,7 +3,7 @@ const { combine, timestamp, label, printf } = format;
 
 const colorizer = format.colorize();
 
-const logger = createLogger({
+const loggers = createLogger({
     levels: {
         error: 0,
         warn: 1,
@@ -28,4 +28,4 @@ const logger = createLogger({
     ],
     level: 'debug'
 });
-module.exports = logger;
+module.exports = loggers;
