@@ -1,0 +1,19 @@
+{
+  "name": "autossh_script",
+  "version": "1.0.0",
+  "description": "A simple script to be run at boot to give the user ssh access",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumukshashidhar/autossh_script.git"
+  },
+  "author": "Sumuk Shashidhar",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/sumukshashidhar/autossh_script/issues"
+  },
+  "homepage": "https://github.com/sumukshashidhar/autossh_script#readme"
+}
