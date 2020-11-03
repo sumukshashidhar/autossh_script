@@ -1,6 +1,11 @@
 {
-    "compilerOptions": {
-        "target": "ESNext", 
-        "watch":true,
-    }
+  "compilerOptions": {
+    "watch": true,
+    "target": "ES3",
+    "outDir":"build",
+    "rootDir":"src",
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+  }
 }

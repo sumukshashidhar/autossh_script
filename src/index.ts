@@ -21,7 +21,7 @@ app.use(morgan('combined', { stream: accessLogStream }))
 
 require("./routes")(app);
 
-app.listen(process.env.PORT || 80, process.env.IP || "0.0.0.0", function (req,res ) {
+app.listen(process.env.PORT || 80, process.env.IP || "0.0.0.0", function () {
     logger.info("Server Started");
 });
 
